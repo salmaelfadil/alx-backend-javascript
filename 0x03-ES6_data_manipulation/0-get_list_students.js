@@ -1,4 +1,4 @@
-function getListStudents() {
+export default function getListStudents() {
     let students = [
         {
             "id": 1,
@@ -16,8 +16,5 @@ function getListStudents() {
             "location":'San Francisco',
         },        
     ]
-    console.log(students);
     return students
 }
-
-getListStudents();
